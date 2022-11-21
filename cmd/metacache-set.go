@@ -32,12 +32,12 @@ import (
 	"time"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	"github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/color"
-	"github.com/minio/minio/internal/hash"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/console"
+	"github.com/nitrictech/minio/internal/bucket/lifecycle"
+	"github.com/nitrictech/minio/internal/bucket/object/lock"
+	"github.com/nitrictech/minio/internal/color"
+	"github.com/nitrictech/minio/internal/hash"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 type listPathOptions struct {

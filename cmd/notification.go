@@ -33,10 +33,10 @@ import (
 	"github.com/cespare/xxhash/v2"
 	"github.com/klauspost/compress/zip"
 	"github.com/minio/madmin-go"
-	bucketBandwidth "github.com/minio/minio/internal/bucket/bandwidth"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/sync/errgroup"
 	xnet "github.com/minio/pkg/net"
+	bucketBandwidth "github.com/nitrictech/minio/internal/bucket/bandwidth"
+	"github.com/nitrictech/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/sync/errgroup"
 )
 
 // This file contains peer related notifications. For sending notifications to

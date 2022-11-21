@@ -27,13 +27,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/minio/minio/internal/crypto"
-	xhttp "github.com/minio/minio/internal/http"
-	xioutil "github.com/minio/minio/internal/ioutil"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/bucket/policy"
 	xnet "github.com/minio/pkg/net"
 	"github.com/minio/zipindex"
+	"github.com/nitrictech/minio/internal/crypto"
+	xhttp "github.com/nitrictech/minio/internal/http"
+	xioutil "github.com/nitrictech/minio/internal/ioutil"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 const (

@@ -33,17 +33,17 @@ import (
 	"github.com/klauspost/readahead"
 	"github.com/minio/madmin-go"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	"github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/bucket/replication"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/hash"
-	xhttp "github.com/minio/minio/internal/http"
-	xioutil "github.com/minio/minio/internal/ioutil"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/sync/errgroup"
 	"github.com/minio/pkg/mimedb"
 	"github.com/minio/pkg/wildcard"
+	"github.com/nitrictech/minio/internal/bucket/lifecycle"
+	"github.com/nitrictech/minio/internal/bucket/object/lock"
+	"github.com/nitrictech/minio/internal/bucket/replication"
+	"github.com/nitrictech/minio/internal/event"
+	"github.com/nitrictech/minio/internal/hash"
+	xhttp "github.com/nitrictech/minio/internal/http"
+	xioutil "github.com/nitrictech/minio/internal/ioutil"
+	"github.com/nitrictech/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/sync/errgroup"
 	uatomic "go.uber.org/atomic"
 )
 
@@ -235,7 +235,7 @@ func (er erasureObjects) GetObjectNInfo(ctx context.Context, bucket, object stri
 				}
 				if !metaArr[index].AcceptableDelta(diskMTime, shardDiskTimeDelta) {
 					// If disk mTime mismatches it is considered outdated
-					// https://github.com/minio/minio/pull/13803
+					// https://github.com/nitrictech/minio/pull/13803
 					//
 					// This check only is active if we could find maximally
 					// occurring disk mtimes that are somewhat same across

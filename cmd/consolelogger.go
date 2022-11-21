@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/logger/message/log"
-	"github.com/minio/minio/internal/logger/target/console"
-	"github.com/minio/minio/internal/logger/target/types"
-	"github.com/minio/minio/internal/pubsub"
 	xnet "github.com/minio/pkg/net"
+	"github.com/nitrictech/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/logger/message/log"
+	"github.com/nitrictech/minio/internal/logger/target/console"
+	"github.com/nitrictech/minio/internal/logger/target/types"
+	"github.com/nitrictech/minio/internal/pubsub"
 )
 
 // number of log messages to buffer

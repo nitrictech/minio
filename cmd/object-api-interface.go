@@ -26,10 +26,10 @@ import (
 	"github.com/minio/madmin-go"
 	"github.com/minio/minio-go/v7/pkg/encrypt"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/hash"
+	"github.com/nitrictech/minio/internal/hash"
 
-	"github.com/minio/minio/internal/bucket/replication"
-	xioutil "github.com/minio/minio/internal/ioutil"
+	"github.com/nitrictech/minio/internal/bucket/replication"
+	xioutil "github.com/nitrictech/minio/internal/ioutil"
 )
 
 // CheckPreconditionFn returns true if precondition check failed.

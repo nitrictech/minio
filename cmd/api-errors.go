@@ -33,18 +33,18 @@ import (
 	"github.com/minio/madmin-go"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	"github.com/minio/minio/internal/bucket/replication"
-	"github.com/minio/minio/internal/config/dns"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/auth"
+	"github.com/nitrictech/minio/internal/bucket/lifecycle"
+	"github.com/nitrictech/minio/internal/bucket/replication"
+	"github.com/nitrictech/minio/internal/config/dns"
+	"github.com/nitrictech/minio/internal/crypto"
+	"github.com/nitrictech/minio/internal/logger"
 
-	objectlock "github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/bucket/versioning"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/hash"
 	"github.com/minio/pkg/bucket/policy"
+	objectlock "github.com/nitrictech/minio/internal/bucket/object/lock"
+	"github.com/nitrictech/minio/internal/bucket/versioning"
+	"github.com/nitrictech/minio/internal/event"
+	"github.com/nitrictech/minio/internal/hash"
 )
 
 // APIError structure
@@ -257,7 +257,7 @@ const (
 	ErrInvalidStorageClass
 	ErrBackendDown
 	// Add new extended error codes here.
-	// Please open a https://github.com/minio/minio/issues before adding
+	// Please open a https://github.com/nitrictech/minio/issues before adding
 	// new error codes here.
 
 	ErrMalformedJSON

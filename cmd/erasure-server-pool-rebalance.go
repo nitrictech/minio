@@ -32,10 +32,10 @@ import (
 
 	"github.com/lithammer/shortuuid/v4"
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	"github.com/minio/minio/internal/hash"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/env"
+	"github.com/nitrictech/minio/internal/bucket/lifecycle"
+	"github.com/nitrictech/minio/internal/hash"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 //go:generate msgp -file $GOFILE -unexported

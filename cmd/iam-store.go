@@ -31,10 +31,10 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"github.com/minio/madmin-go"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/config/identity/openid"
-	"github.com/minio/minio/internal/logger"
 	iampolicy "github.com/minio/pkg/iam/policy"
+	"github.com/nitrictech/minio/internal/auth"
+	"github.com/nitrictech/minio/internal/config/identity/openid"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 const (

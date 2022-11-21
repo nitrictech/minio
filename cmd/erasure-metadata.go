@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/internal/amztime"
-	"github.com/minio/minio/internal/bucket/replication"
-	"github.com/minio/minio/internal/hash/sha256"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/sync/errgroup"
+	"github.com/nitrictech/minio/internal/amztime"
+	"github.com/nitrictech/minio/internal/bucket/replication"
+	"github.com/nitrictech/minio/internal/hash/sha256"
+	xhttp "github.com/nitrictech/minio/internal/http"
+	"github.com/nitrictech/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/sync/errgroup"
 )
 
 // Object was stored with additional erasure codes due to degraded system at upload time

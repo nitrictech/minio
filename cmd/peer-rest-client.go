@@ -30,13 +30,13 @@ import (
 	"time"
 
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/http"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/logger/message/log"
-	"github.com/minio/minio/internal/rest"
 	xnet "github.com/minio/pkg/net"
+	"github.com/nitrictech/minio/internal/event"
+	"github.com/nitrictech/minio/internal/http"
+	xhttp "github.com/nitrictech/minio/internal/http"
+	"github.com/nitrictech/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/logger/message/log"
+	"github.com/nitrictech/minio/internal/rest"
 	"github.com/tinylib/msgp/msgp"
 )
 

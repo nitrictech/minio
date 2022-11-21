@@ -39,12 +39,12 @@ import (
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/minio/minio-go/v7/pkg/replication"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/internal/auth"
-	sreplication "github.com/minio/minio/internal/bucket/replication"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/bucket/policy"
 	bktpolicy "github.com/minio/pkg/bucket/policy"
 	iampolicy "github.com/minio/pkg/iam/policy"
+	"github.com/nitrictech/minio/internal/auth"
+	sreplication "github.com/nitrictech/minio/internal/bucket/replication"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 const (

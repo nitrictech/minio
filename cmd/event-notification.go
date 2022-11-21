@@ -25,12 +25,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/event"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/pubsub"
 	"github.com/minio/pkg/bucket/policy"
+	"github.com/nitrictech/minio/internal/crypto"
+	"github.com/nitrictech/minio/internal/event"
+	xhttp "github.com/nitrictech/minio/internal/http"
+	"github.com/nitrictech/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/pubsub"
 )
 
 // EventNotifier - notifies external systems about events in MinIO.

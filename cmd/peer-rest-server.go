@@ -32,11 +32,11 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/gorilla/mux"
 	"github.com/minio/madmin-go"
-	b "github.com/minio/minio/internal/bucket/bandwidth"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/logger/message/log"
-	"github.com/minio/minio/internal/pubsub"
+	b "github.com/nitrictech/minio/internal/bucket/bandwidth"
+	"github.com/nitrictech/minio/internal/event"
+	"github.com/nitrictech/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/logger/message/log"
+	"github.com/nitrictech/minio/internal/pubsub"
 	"github.com/tinylib/msgp/msgp"
 )
 

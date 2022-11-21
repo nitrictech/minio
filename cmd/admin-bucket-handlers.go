@@ -35,14 +35,14 @@ import (
 	"github.com/minio/kes"
 	"github.com/minio/madmin-go"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	objectlock "github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/bucket/versioning"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/bucket/policy"
 	iampolicy "github.com/minio/pkg/iam/policy"
+	"github.com/nitrictech/minio/internal/bucket/lifecycle"
+	objectlock "github.com/nitrictech/minio/internal/bucket/object/lock"
+	"github.com/nitrictech/minio/internal/bucket/versioning"
+	"github.com/nitrictech/minio/internal/event"
+	"github.com/nitrictech/minio/internal/kms"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 const (

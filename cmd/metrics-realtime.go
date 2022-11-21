@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/disk"
+	"github.com/nitrictech/minio/internal/disk"
 )
 
 type collectMetricsOpts struct {

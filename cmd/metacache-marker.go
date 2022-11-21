@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/minio/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 // markerTagVersion is the marker version.

@@ -35,7 +35,7 @@ import (
 	"github.com/klauspost/compress/s2"
 	"github.com/klauspost/compress/zstd"
 	gzip "github.com/klauspost/pgzip"
-	"github.com/minio/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/logger"
 	"github.com/pierrec/lz4"
 )
 

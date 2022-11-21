@@ -25,9 +25,9 @@ import (
 
 	"github.com/minio/kes"
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/config"
 	iampolicy "github.com/minio/pkg/iam/policy"
+	"github.com/nitrictech/minio/internal/auth"
+	"github.com/nitrictech/minio/internal/config"
 )
 
 // validateAdminReq will validate request against and return whether it is allowed.

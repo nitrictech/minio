@@ -26,16 +26,16 @@ import (
 
 	"github.com/minio/madmin-go"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	bucketsse "github.com/minio/minio/internal/bucket/encryption"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	objectlock "github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/bucket/replication"
-	"github.com/minio/minio/internal/bucket/versioning"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/sync/errgroup"
 	"github.com/minio/pkg/bucket/policy"
+	bucketsse "github.com/nitrictech/minio/internal/bucket/encryption"
+	"github.com/nitrictech/minio/internal/bucket/lifecycle"
+	objectlock "github.com/nitrictech/minio/internal/bucket/object/lock"
+	"github.com/nitrictech/minio/internal/bucket/replication"
+	"github.com/nitrictech/minio/internal/bucket/versioning"
+	"github.com/nitrictech/minio/internal/event"
+	"github.com/nitrictech/minio/internal/kms"
+	"github.com/nitrictech/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/sync/errgroup"
 )
 
 // BucketMetadataSys captures all bucket metadata for a given cluster.

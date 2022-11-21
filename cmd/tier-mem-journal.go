@@ -21,7 +21,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/minio/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 type tierMemJournal struct {

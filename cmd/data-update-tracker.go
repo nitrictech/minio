@@ -32,9 +32,9 @@ import (
 	"time"
 
 	"github.com/bits-and-blooms/bloom/v3"
-	"github.com/minio/minio/internal/color"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/console"
+	"github.com/nitrictech/minio/internal/color"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 const (

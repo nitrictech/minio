@@ -24,7 +24,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/minio/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 func handleSignals() {

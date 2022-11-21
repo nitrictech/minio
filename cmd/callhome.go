@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 var callhomeLeaderLockTimeout = newDynamicTimeout(30*time.Second, 10*time.Second)
