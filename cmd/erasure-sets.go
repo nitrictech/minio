@@ -356,7 +356,7 @@ func newErasureSets(ctx context.Context, endpoints PoolEndpoints, storageDisks [
 	}
 
 	if defaultParityCount == 0 {
-		logger.Error("Warning: Default parity set to 0. This can lead to data loss.")
+		logger.Info("Warning: Default parity set to 0. This can lead to data loss.")
 	}
 
 	// Initialize the erasure sets instance.
