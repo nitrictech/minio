@@ -95,7 +95,7 @@ VERSION:
   {{.Version}}
 `
 
-func newApp(name string) *cli.App {
+func NewApp(name string) *cli.App {
 	// Collection of minio commands currently supported are.
 	commands := []cli.Command{}
 
@@ -211,7 +211,7 @@ func Main(args []string) {
 	}
 
 	// Run the app - exit on error.
-	if err := newApp(appName).Run(args); err != nil {
+	if err := NewApp(appName).Run(args); err != nil {
 		os.Exit(1) //nolint:gocritic
 	}
 }
