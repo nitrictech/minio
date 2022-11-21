@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/internal/config"
 	"github.com/minio/pkg/env"
+	"github.com/nitrictech/minio/internal/config"
 )
 
 // API sub-system constants

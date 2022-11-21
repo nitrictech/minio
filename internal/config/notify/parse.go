@@ -27,12 +27,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/event/target"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/env"
 	xnet "github.com/minio/pkg/net"
+	"github.com/nitrictech/minio/internal/config"
+	"github.com/nitrictech/minio/internal/event"
+	"github.com/nitrictech/minio/internal/event/target"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 const (

@@ -25,7 +25,7 @@ import (
 
 	ldap "github.com/go-ldap/ldap/v3"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/internal/auth"
+	"github.com/nitrictech/minio/internal/auth"
 )
 
 // LookupUserDN searches for the full DN and groups of a given username

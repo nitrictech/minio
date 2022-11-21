@@ -32,10 +32,10 @@ import (
 
 	jwtg "github.com/golang-jwt/jwt/v4"
 	jwtgo "github.com/golang-jwt/jwt/v4"
-	"github.com/minio/minio/internal/arn"
-	"github.com/minio/minio/internal/config"
-	jwtm "github.com/minio/minio/internal/jwt"
 	xnet "github.com/minio/pkg/net"
+	"github.com/nitrictech/minio/internal/arn"
+	"github.com/nitrictech/minio/internal/config"
+	jwtm "github.com/nitrictech/minio/internal/jwt"
 )
 
 func TestUpdateClaimsExpiry(t *testing.T) {

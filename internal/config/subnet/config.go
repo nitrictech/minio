@@ -24,9 +24,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/minio/minio/internal/config"
 	"github.com/minio/pkg/env"
 	xnet "github.com/minio/pkg/net"
+	"github.com/nitrictech/minio/internal/config"
 )
 
 // DefaultKVS - default KV config for subnet settings

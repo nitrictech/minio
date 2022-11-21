@@ -18,8 +18,8 @@
 package notify
 
 import (
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/event/target"
+	"github.com/nitrictech/minio/internal/config"
+	"github.com/nitrictech/minio/internal/event/target"
 )
 
 const (

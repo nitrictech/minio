@@ -27,8 +27,8 @@ import (
 
 	"github.com/minio/madmin-go"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/internal/auth"
 	"github.com/minio/pkg/env"
+	"github.com/nitrictech/minio/internal/auth"
 )
 
 // ErrorConfig holds the config error types

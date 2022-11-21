@@ -23,7 +23,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/minio/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/logger"
 )
 
 var isMultipartTests = []struct {

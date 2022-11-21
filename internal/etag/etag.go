@@ -117,9 +117,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/minio/minio/internal/fips"
-	"github.com/minio/minio/internal/hash/sha256"
 	"github.com/minio/sio"
+	"github.com/nitrictech/minio/internal/fips"
+	"github.com/nitrictech/minio/internal/hash/sha256"
 )
 
 // ETag is a single S3 ETag.

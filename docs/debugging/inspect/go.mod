@@ -1,4 +1,4 @@
-module github.com/minio/minio/docs/debugging/inspect
+module github.com/nitrictech/minio/docs/debugging/inspect
 
 go 1.18
 

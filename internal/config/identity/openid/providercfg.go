@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/minio/minio/internal/arn"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/config/identity/openid/provider"
-	xhttp "github.com/minio/minio/internal/http"
 	xnet "github.com/minio/pkg/net"
+	"github.com/nitrictech/minio/internal/arn"
+	"github.com/nitrictech/minio/internal/config"
+	"github.com/nitrictech/minio/internal/config/identity/openid/provider"
+	xhttp "github.com/nitrictech/minio/internal/http"
 )
 
 type providerCfg struct {

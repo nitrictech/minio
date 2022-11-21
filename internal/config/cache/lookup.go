@@ -21,8 +21,8 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/minio/minio/internal/config"
 	"github.com/minio/pkg/env"
+	"github.com/nitrictech/minio/internal/config"
 )
 
 // Cache ENVs

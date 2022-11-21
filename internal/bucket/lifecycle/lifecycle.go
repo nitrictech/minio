@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	xhttp "github.com/minio/minio/internal/http"
+	xhttp "github.com/nitrictech/minio/internal/http"
 )
 
 var (

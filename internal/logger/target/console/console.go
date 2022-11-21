@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/minio/minio/internal/color"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/logger/message/log"
 	"github.com/minio/pkg/console"
+	"github.com/nitrictech/minio/internal/color"
+	"github.com/nitrictech/minio/internal/logger"
+	"github.com/nitrictech/minio/internal/logger/message/log"
 )
 
 // Target implements loggerTarget to send log

@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/internal/event"
+	"github.com/nitrictech/minio/internal/event"
 )
 
 const (

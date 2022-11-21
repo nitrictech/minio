@@ -29,8 +29,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger/target/types"
+	xhttp "github.com/nitrictech/minio/internal/http"
+	"github.com/nitrictech/minio/internal/logger/target/types"
 )
 
 const (
